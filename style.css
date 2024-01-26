@@ -7,9 +7,8 @@
 
 header {
     background-color: #D5C7FF;
-    padding: 6rem;
+    padding: 3rem;
     align-items: center;
-
 }
 
 header p {
@@ -22,30 +21,22 @@ header h1 {
     
 }
 
-.evento {
-    display: flex;
-    padding: 1rem;    
-}
-
-.evento:nth-child(2n+1) {
-    flex-direction: row-reverse;
-}
-
-.imagem {
-    max-width: 50%;    
+h3 {
+    margin-top: 40rem;
+    margin-bottom: 3rem;
 }
 
 img {
     width: 100%;
-    border-radius: 10%;        
-    
+    border-radius: 10%; 
 }
 
-.texto {
-    width: 50%;
+.texto {    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;    
     gap: 1rem;
-    margin: 2rem;
+    padding: 1rem;
+    text-align: cente;
 }

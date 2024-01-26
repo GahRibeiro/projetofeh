@@ -40,8 +40,7 @@ setInterval(() => {
 }, 1800)
 
 
-const imagens2601 =["./fotos projeto/Feh 4.jpg",
-"./fotos projeto/Feh 5.jpg",
+const imagens2601 =["./fotos projeto/Feh 5.jpg",
 "./fotos projeto/Feh 6.jpg",
 "./fotos projeto/Feh 7.jpg"]
 
@@ -50,7 +49,7 @@ let index2601=0
 setInterval(() => {
 
     document.getElementById("img26-01-24").src =imagens2601[index2601++]
-    if(index2601==4){
+    if(index2601==3){
         index2601=0
     }
 }, 1800)
