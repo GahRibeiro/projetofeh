@@ -8,15 +8,17 @@
 header {
     background-color: #D5C7FF;
     padding: 6rem;
+    align-items: center;
+
+}
+
+header p {
+    text-align: center;
 }
 
 header h1 {
     margin-bottom: 2rem;
     text-align: center;
-    
-}
-
-main {
     
 }
 

@@ -9,7 +9,7 @@ setInterval(() => {
     if(index1401==2){
         index1401=0
     }
-}, 1500)
+}, 1800)
 
 
 const imagens3012 =["./fotos projeto/30.12.jpg",
@@ -23,7 +23,7 @@ setInterval(() => {
     if(index3012==2){
         index3012=0
     }
-}, 1500)
+}, 1800)
 
 
 const imagens2312 =["./fotos projeto/23.12.jpg",
@@ -37,7 +37,7 @@ setInterval(() => {
     if(index2312==2){
         index2312=0
     }
-}, 1500)
+}, 1800)
 
 
 const imagens2601 =["./fotos projeto/Feh 4.jpg",
@@ -53,10 +53,8 @@ setInterval(() => {
     if(index2601==4){
         index2601=0
     }
-}, 1500)
+}, 1800)
 
 
 var audio = new Audio('lesspeopleSpecialPerso.mp3');
-audio.volume=0.2
-audio.loop=true
 audio.play();
